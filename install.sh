@@ -12,6 +12,7 @@ if test -z "$(which ctags)"; then
     echo "Install ctags done!"
 else 
     echo "Ctags has installed"
+fi
 
 function digitaldatetime() {
     echo `date +"%Y%m%d%H%M%S"`
