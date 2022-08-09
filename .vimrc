@@ -1,8 +1,5 @@
 " Hello，我是PowerVim的作者，程序员Carl，欢迎关注我的微信公众号：代码随想录 
 "
-set guifont=Fantasque_Sans_Mono:h13
-let Tlist_Ctags_Cmd='C:\Users\songxiang\vimfiles\extension\ctags58\ctags.exe'
-
 " 定义快捷键的前缀，即<Leader>
 let mapleader=";"
 
@@ -42,8 +39,8 @@ set nocp
 
 "set encoding=utf-8
 ""set encoding=gb2312
-set langmenu=zh_CN.gb2312
-language message zh_CN.gb2312
+"set langmenu=zh_CN.gb2312
+"language message zh_CN.gb2312
 
 set fileencoding=gbk2312
 set ts=4
@@ -316,7 +313,7 @@ endfunc
 " Hello，我是PowerVim的作者，程序员Carl，欢迎关注我的微信公众号：代码随想录 
 
 " 使用的背景主题
-colorscheme Monokai
+colorscheme monokai
 " 添加自动补全字典
 au FileType php setlocal dict+=~/.vim/dictionary/php_keywords_list.txt
 au FileType cpp setlocal dict+=~/.vim/dictionary/cpp_keywords_list.txt
